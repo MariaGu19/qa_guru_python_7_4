@@ -9,7 +9,7 @@ def test_greeting():
     name = "Анна"
     age = 25
     # TODO Сформируйте нужную строку
-    output = f" Привет, {name}! Тебе {str(age)} лет."
+    output = f"Привет, {name}! Тебе {age} лет."
     print(output)
 
     # Проверяем результат
@@ -24,7 +24,7 @@ def test_rectangle():
     a = 10
     b = 20
     # TODO сосчитайте периметр
-    perimeter = ( 2 * (a + b))
+    perimeter = (2 * (a + b))
 
     assert perimeter == 60
 
@@ -41,13 +41,13 @@ def test_circle():
     """
     r = 23
     # TODO сосчитайте площадь
-    area = math.pi*23**2
+    area = math.pi * 23 ** 2
     print(area)
 
     assert area == 1661.9025137490005
 
     # TODO сосчитайте длину окружности
-    length = 2*math.pi*r
+    length = 2 * math.pi * r
     print(length)
 
     assert length == 144.51326206513048
